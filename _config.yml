@@ -19,25 +19,25 @@ navbar_items:
   - title: Home
     url: /
   - title: About
-    url: /about/
+    url: /about
   - title: Blog
-    url: /blog/
+    url: /blog
   - title: Tools
-    url: /tools/
+    url: /tools
   - title: Vulnerability Disclosure Policy
-    url: /vulnerability-disclosure-policy/
+    url: /vulnerability-disclosure-policy
 
 footer_items:
   - title: Home
     url: /
   - title: About
-    url: /about/
+    url: /about
   - title: Blog
     url: /blog/
   - title: Tools
-    url: /tools/
+    url: /tools
   - title: Vulnerability Disclosure Policy
-    url: /vulnerability-disclosure-policy/
+    url: /vulnerability-disclosure-policy
 
 social_media:
   - title: X
