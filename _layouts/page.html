@@ -6,6 +6,15 @@ layout: default
   <section class="flex justify-center items-center bg-secondary/75 py-16">
     <h1 class="font-bold text-neutral-content text-5xl">{{page.title}}</h1>
   </section>
+  {% if page.image %}
+  <div class="flex justify-center items-center mx-auto container">
+    <img
+      src="{{page.image | relative_url}}"
+      alt="{{page.title}}"
+      class="rounded h-72 object-cover aspect-video"
+    />
+  </div>
+  {% endif %}
   <section class="mx-auto py-10 text-neutral-content prose container">
     {{ content | markdownify}}
   </section>

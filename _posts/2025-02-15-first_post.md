@@ -2,7 +2,7 @@
 layout: page
 title: First Blog Post
 tags: first_post, technology
-image: /assets/post_images/sample-image.jpeg
+image: /assets/images/article-image.png
 ---
 Code highlighting and styling is based on [highlight.js](https://highlightjs.org/) and TailwindCSS customization.
 

@@ -26,10 +26,15 @@
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
-        <a class="btn-outline font-bold btn btn-warning">Courses</a>
       </ul>
     </div>
-    <a class="font-bold text-secondary text-xl btn btn-ghost">{{site.title}}</a>
+    <a href="{{'/' | relative_url}}" title="{{site.title}}" class="px-5">
+      <img
+        src="{{site.logo | relative_url}}"
+        alt="{{site.title}}"
+        class="w-32 object-center image-center"
+      />
+    </a>
   </div>
   <div class="hidden lg:flex flex-1 gap-3 navbar-end">
     <ul class="gap-3 px-1 menu menu-horizontal">
