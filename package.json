@@ -6,6 +6,7 @@
     "cssnano": "^7.0.6",
     "daisyui": "^4.12.23",
     "postcss": "^8.5.2",
+    "postcss-cli": "^11.0.0",
     "tailwindcss": "3"
   }
 }
