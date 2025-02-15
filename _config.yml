@@ -1,0 +1,48 @@
+title: Malicious Erection LLC
+email: hello@maliciouserection.com
+logo: /assets/images/logo-black.jpg
+description: >-
+  Working hard to go up in the world! For now, we develop or contribute to open source security tools on GitHub. But something else is coming soon…:)
+baseurl: "/malicious_erection_llc"
+url: ""
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-postcss
+
+postcss:
+  cache: false
+
+navbar_items:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Tools
+    url: /tools/
+  - title: Vulnerability Disclosure Policy
+    url: /vulnerability-disclosure-policy/
+
+footer_items:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Tools
+    url: /tools/
+  - title: Vulnerability Disclosure Policy
+    url: /vulnerability-disclosure-policy/
+
+social_media:
+  - title: X
+    url: "#"
+    icon: fa-twitter
+  - title: Github
+    url: "#"
+    icon: fa-github
