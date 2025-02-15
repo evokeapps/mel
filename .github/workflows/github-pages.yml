@@ -12,6 +12,8 @@ on:
 # Build site using jekyll
 jobs:
   jekyll:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       # checkout code
