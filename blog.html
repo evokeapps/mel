@@ -7,7 +7,7 @@ title: Blog
   {% for post in site.posts %}
   <div class="card">
     <div class="card-body">
-      <a href="{{ post.url }}">
+      <a href="{{ post | relative_url }}">
         <img
           src="{{ post.image | relative_url }}"
           alt="{{ post.title }}"
@@ -16,12 +16,16 @@ title: Blog
       </a>
       <div class="flex justify-between items-center mt-5">
         <div>
-          <a href="{{ post.url }}" class="card-title">{{ post.title }}</a>
+          <a href="{{ post.url | relative_url }}" class="card-title"
+            >{{ post.title }}</a
+          >
           <div class="text-gray-500 text-xs">
             {{ post.date | date: "%b %-d, %Y" }}
           </div>
         </div>
-        <a href="{{ post.url }}" class="btn btn-sm btn-secondary">Read more</a>
+        <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-secondary"
+          >Read more</a
+        >
       </div>
     </div>
   </div>

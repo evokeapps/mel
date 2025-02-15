@@ -23,7 +23,7 @@
       >
         {% for item in site.navbar_items %}
         <li class="text-secondary text-lg">
-          <a href="{{ item.url }}">{{ item.title }}</a>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
         <a class="btn-outline font-bold btn btn-warning">Courses</a>
@@ -35,7 +35,7 @@
     <ul class="gap-3 px-1 menu menu-horizontal">
       {% for item in site.navbar_items %}
       <li class="font-semibold text-base">
-        <a href="{{ item.url }}">{{ item.title }}</a>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
       </li>
       {% endfor %}
     </ul>

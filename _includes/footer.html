@@ -9,7 +9,7 @@
       {% for item in site.social_media %}
       <a
         title="{{item.title}}"
-        href="{{item.url}}"
+        href="{{item.url | relative_url}}"
         class="btn btn-ghost btn-circle"
       >
         <i class="fa {{item.icon}} text-xl"></i>
