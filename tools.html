@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tools | Malicious Erection LLC</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Tools" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Working hard to go up in the world! For now, we develop or contribute to open source security tools on GitHub. But something else is coming soon…:)" />
+<meta property="og:description" content="Working hard to go up in the world! For now, we develop or contribute to open source security tools on GitHub. But something else is coming soon…:)" />
+<link rel="canonical" href="/mel/tools.html" />
+<meta property="og:url" content="/mel/tools.html" />
+<meta property="og:site_name" content="Malicious Erection LLC" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tools" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Working hard to go up in the world! For now, we develop or contribute to open source security tools on GitHub. But something else is coming soon…:)","headline":"Tools","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/mel/assets/images/logo-black.jpg"}},"url":"/mel/tools.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/mel/assets/css/main.css" />
+  </head>
+
+  <body class="flex flex-col h-screen antialiased">
+    <div class="flex-none bg-base-100 shadow-sm h-20 navbar">
+  <div class="flex-none navbar-start">
+    <div class="shadow-lg dropdown">
+      <div tabindex="0" role="button" class="lg:hidden btn btn-ghost">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16"
+          />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="z-[1] space-y-5 bg-base-100 shadow mt-3 p-2 rounded-box w-72 menu menu-sm dropdown-content"
+      >
+        
+        <li class="text-secondary text-lg">
+          <a href="/">Home</a>
+        </li>
+        
+        <li class="text-secondary text-lg">
+          <a href="/about/">About</a>
+        </li>
+        
+        <li class="text-secondary text-lg">
+          <a href="/blog/">Blog</a>
+        </li>
+        
+        <li class="text-secondary text-lg">
+          <a href="/tools/">Tools</a>
+        </li>
+        
+        <li class="text-secondary text-lg">
+          <a href="/vulnerability-disclosure-policy/">Vulnerability Disclosure Policy</a>
+        </li>
+        
+        <a class="btn-outline font-bold btn btn-warning">Courses</a>
+      </ul>
+    </div>
+    <a class="font-bold text-secondary text-xl btn btn-ghost">Malicious Erection LLC</a>
+  </div>
+  <div class="hidden lg:flex flex-1 gap-3 navbar-end">
+    <ul class="gap-3 px-1 menu menu-horizontal">
+      
+      <li class="font-semibold text-base">
+        <a href="/">Home</a>
+      </li>
+      
+      <li class="font-semibold text-base">
+        <a href="/about/">About</a>
+      </li>
+      
+      <li class="font-semibold text-base">
+        <a href="/blog/">Blog</a>
+      </li>
+      
+      <li class="font-semibold text-base">
+        <a href="/tools/">Tools</a>
+      </li>
+      
+      <li class="font-semibold text-base">
+        <a href="/vulnerability-disclosure-policy/">Vulnerability Disclosure Policy</a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    <div class="flex-1 overflow-y-auto">
+      <div class="min-h-[80vh]"><main>
+  <section class="flex justify-center items-center bg-secondary/75 py-16">
+    <h1 class="font-bold text-neutral-content text-5xl">Tools</h1>
+  </section>
+  <section class="mx-auto py-10 text-neutral-content prose container">
+    <p>Code highlighting and styling is based on <a href="https://highlightjs.org/">highlight.js</a> and TailwindCSS customization.</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/harrywang/tailpages.git
+cd tailpages
+</code></pre></div></div>
+<p>…</p>
+
+<p>To enable typography plugin, inter font, and customizations by updating <code class="language-plaintext highlighter-rouge">tailwid.config.js</code> as follows:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">defaultTheme</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">tailwindcss/defaultTheme</span><span class="dl">'</span><span class="p">)</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">content</span><span class="p">:</span> <span class="p">[</span>
+    <span class="dl">'</span><span class="s1">./**/*.html</span><span class="dl">'</span>
+  <span class="p">],</span>
+  <span class="na">darkMode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">media</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">theme</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">extend</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">typography</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">DEFAULT</span><span class="p">:</span> <span class="p">{</span>
+          <span class="na">css</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">pre</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">padding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">color</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#1F2933</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">backgroundColor</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#F3F3F3</span><span class="dl">"</span>
+            <span class="p">},</span>
+            <span class="na">code</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">padding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.2em 0.4em</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">backgroundColor</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#F3F3F3</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">color</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#DD1144</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">fontWeight</span><span class="p">:</span> <span class="dl">"</span><span class="s2">400</span><span class="dl">"</span><span class="p">,</span>
+              <span class="dl">"</span><span class="s2">border-radius</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.25rem</span><span class="dl">"</span>
+            <span class="p">},</span>
+            <span class="dl">"</span><span class="s2">code::before</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">code::after</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">blockquote p:first-of-type::before</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">blockquote p:last-of-type::after</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+          <span class="p">},</span>
+        <span class="p">},</span>
+      <span class="p">},</span>
+      <span class="na">fontFamily</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">sans</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Inter var</span><span class="dl">'</span><span class="p">,</span> <span class="p">...</span><span class="nx">defaultTheme</span><span class="p">.</span><span class="nx">fontFamily</span><span class="p">.</span><span class="nx">sans</span><span class="p">],</span>
+      <span class="p">},</span>
+    <span class="p">},</span>
+  <span class="p">},</span>
+
+  <span class="na">variants</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">extend</span><span class="p">:</span> <span class="p">{},</span>
+  <span class="p">},</span>
+  <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
+    <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">@tailwindcss/typography</span><span class="dl">'</span><span class="p">),</span>
+  <span class="p">],</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>See more examples at <a href="https://harrywang.me/2022/01/18/tailpages-tutorial-technical.html">here</a></p>
+
+  </section>
+  
+</main>
+</div>
+      <div class="bg-neutral-800">
+  <footer class="mx-auto py-10 container">
+    <div class="flex flex-wrap justify-center gap-3 mb-10 align-center">
+      
+      <a class="btn btn-secondary btn-ghost">Home</a>
+      
+      <a class="btn btn-secondary btn-ghost">About</a>
+      
+      <a class="btn btn-secondary btn-ghost">Blog</a>
+      
+      <a class="btn btn-secondary btn-ghost">Tools</a>
+      
+      <a class="btn btn-secondary btn-ghost">Vulnerability Disclosure Policy</a>
+      
+    </div>
+    <div class="flex justify-center items-center gap-3 mb-10">
+      
+      <a
+        title="X"
+        href="#"
+        class="btn btn-ghost btn-circle"
+      >
+        <i class="fa fa-twitter text-xl"></i>
+      </a>
+      
+      <a
+        title="Github"
+        href="#"
+        class="btn btn-ghost btn-circle"
+      >
+        <i class="fa fa-github text-xl"></i>
+      </a>
+      
+    </div>
+    <p class="text-center">© 2025 Malicious Erection LLC.</p>
+  </footer>
+</div>
+
+    </div>
+  </body>
+</html>
