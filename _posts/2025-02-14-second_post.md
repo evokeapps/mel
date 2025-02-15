@@ -6,8 +6,6 @@ image: /assets/post_images/sample-image.jpeg
 ---
 Code highlighting and styling is based on [highlight.js](https://highlightjs.org/) and TailwindCSS customization.
 
-Some examples:
-
 ```
 git clone https://github.com/harrywang/tailpages.git
 cd tailpages
