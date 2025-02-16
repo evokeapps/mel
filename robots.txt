@@ -1,1 +1,1 @@
-Sitemap: https://evokeapps.github.io/mel/sitemap.xml
+Sitemap: /sitemap.xml
